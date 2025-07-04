@@ -577,6 +577,10 @@ button {
   border-radius: 8px;
 }
 
+.input-textarea {
+  height: 120px;
+}
+
 .button {
   display: flex;
   align-items: center;

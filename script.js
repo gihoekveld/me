@@ -16,3 +16,9 @@ function toggleDescription(button) {
   container.classList.remove('collapsed');
   button.remove();
 }
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  alert("O envio do formulário ainda não está ativado. Se quiser falar comigo, me mande uma mensagem pelo LinkedIn: https://www.linkedin.com/in/giselle-hoekveld-1b8081142/");
+}

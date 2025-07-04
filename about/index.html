@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <!-- Pré-carregamento de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Meta tags essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <meta name="keywords" content="Giselle Hoekveld, portfólio, desenvolvedora, Developer, Software, Portfolio">
+    <meta name="description" content="Portfólio de Giselle Hoekveld, desenvolvedora de software.">
+    <meta name="author" content="Giselle Hoekveld">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Título da página -->
+    <title>Giselle Hoekveld</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+      <nav>
+        <div id="nav-links">
+          <div>
+            <a href="../">Início</a>
+          </div>
+          <div>
+            <a href="#">Sobre Mim</a>
+          </div>
+          <div>
+            <a href="../background">Minha Trajetória</a>
+          </div>
+          <div>
+            <a href="../portifolio">Portifólio</a>
+          </div>
+          <div>
+            <a href="../contact">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="container">
+
+      <!-- Seção de perfil -->
+      <section id="profile">
+        <img src="../assets/avatar.png" alt="Foto de Giselle com a mão esquerda no queixo, usando um headphone e camisa preta, cabelo curto castanho escuro e ondulado, com fundo branco." />
+        <p>@gihoekveld</p>
+      </section>
+
+      <!-- Botão de alternância de tema -->
+      <div id="switch" onclick="toggleMode('../assets')">
+        <button></button>
+        <span></span>
+      </div>
+
+      <!--  Seção Sobre Mim -->
+      <section id="about">
+         <article class="card-container">
+            <div class="card-header">
+              <h1 class="title">Sobre Mim</h1>
+
+              <div id="bio">
+                <p>👋 Olá, mundo! Me chamo Giselle, tenho 25 anos e moro no Litoral Norte de São Paulo — uma região perfeita para um dos meus passatempos favoritos: pedalar. Como uma boa dev, não nego um bom café.</p> 
+
+                <p>🧀 Prefiro um bom salgado a um doce, mas, se for para escolher um favorito, com certeza é o doce de leite.</p> 
+
+                <p>🏠 Sou a caçula entre os irmãos, tia de sobrinhos lindos e dona de um cãozinho fofo chamado Luke. Gosto de cozinhar — aqui em casa dividimos as tarefas. Nada de sobrecarregar ninguém!</p> 
+
+                <p>🙏 Católica por convicção, estou sempre na Missa aos domingos e busco ser uma pessoa melhor para os meus e para os de fora. Como alguém mais introvertida, valorizo o silêncio e sou do tipo que prefere ouvir mais do que falar.</p>
+              </div>
+            </div>
+         </article>
+      </section>
+
+      <!-- Rodapé -->
+      <footer>
+        Feito com ♥ por Giselle Hoekveld
+      </footer>
+    </main>
+
+    <!-- Ícones do Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Script de funcionalidades -->
+    <script src="../script.js"></script>
+  </body>
+</html>

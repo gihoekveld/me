@@ -10,3 +10,9 @@ function toggleMode(imagePath = './assets') {
     img.setAttribute('src', `${imagePath}/avatar.png`)
   }
 }
+
+function toggleDescription(button) {
+  const container = button.previousElementSibling; // assumes .description-container is just before button
+  container.classList.remove('collapsed');
+  button.remove();
+}

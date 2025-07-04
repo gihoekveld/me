@@ -38,7 +38,7 @@
             <a href="../about">Sobre Mim</a>
           </div>
           <div>
-            <a href="#">Minha Trajetória</a>
+            <a class="active" href="#">Trajetória</a>
           </div>
           <div>
             <a href="../portifolio">Portifólio</a>
@@ -65,23 +65,298 @@
         <span></span>
       </div>
 
-      <!--  Seção Sobre Mim -->
-      <section id="about">
-         <article class="card-container">
-            <div class="card-header">
-              <h1 class="title">Minha trajetória</h1>
+      <!-- 🌟 EXPERIÊNCIA PROFISSIONAL -->
+      <section class="background">
+        <article class="card-container">
+          <header class="card-header">
+            <h1 class="title">Experiência</h1>
+          </header>
 
-              <div id="bio">
-                <p>👋 Olá, mundo! Me chamo Giselle, tenho 25 anos e moro no Litoral Norte de São Paulo — uma região perfeita para um dos meus passatempos favoritos: pedalar. Como uma boa dev, não nego um bom café.</p> 
+          <section>
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-codigo-chave.jpeg" />
+              <div>
+                <h2>Desenvolvedora de Software</h2>
+                <div class="company-info">
+                  <span class="info">Código Chave | Tempo integral</span>
+                  <br>
+                  <span class="caption">jul de 2021 - o momento (4 anos e 1 mês)</span>
+                </div>
+                <div class="description-container collapsed">
+                  <p class="description">
+                    Como prestadora de serviços de desenvolvimento de software, estou atualmente envolvida em projetos significativos na Código Chave. Inicialmente, trabalhei na manutenção do <a href="https://aventurebox.com" target="_blank">Aventurebox</a>, uma rede social brasileira dedicada a aventuras e atividades ao ar livre. Durante esse período, contribui para melhorias tanto no back-end quanto no front-end da aplicação, abrangendo ambientes desktop e mobile.
+                  </p>
+                  <p class="description">
+                    Em 2022, migrei para um novo desafio: o desenvolvimento da plataforma de vendas <a href="https://excofy.com" target="_blank">Excofy</a>. Nesse projeto, ainda em andamento, atuo de forma essencial em todo o processo, ocupando a posição de desenvolvedora full stack.
+                  </p>
+                </div>
+                <button class="show-more" onclick="toggleDescription(this)">
+                  Ver mais
+                </button>
 
-                <p>🧀 Prefiro um bom salgado a um doce, mas, se for para escolher um favorito, com certeza é o doce de leite.</p> 
-
-                <p>🏠 Sou a caçula entre os irmãos, tia de sobrinhos lindos e dona de um cãozinho fofo chamado Luke. Gosto de cozinhar — aqui em casa dividimos as tarefas. Nada de sobrecarregar ninguém!</p> 
-
-                <p>🙏 Católica por convicção, estou sempre na Missa aos domingos e busco ser uma pessoa melhor para os meus e para os de fora. Como alguém mais introvertida, valorizo o silêncio e sou do tipo que prefere ouvir mais do que falar.</p>
+                <div class="skills-container">
+                  <span class="tag">HTML/CSS</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">Next.js</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Microsserviços</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Cloudflare Workers/Pages</span>
+                  <span class="tag">CI/CD</span>
+                </div>
               </div>
-            </div>
-         </article>
+            </article>
+            <hr>
+
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-iplace.jpeg" />
+              <div>
+                <h2>Consultora de Vendas</h2>
+                <div class="company-info">
+                  <span class="info">iPlace - Apple Premium Reseller | Tempo integral</span>
+                  <br>
+                  <span class="caption">out de 2019 - jul de 2021 (1 ano e 10 meses)</span>
+                </div>
+                <div class="description-container collapsed">
+                  <p class="description">
+                    A iPlace faz parte do programa Apple Premium Reseller (APR) da Apple e ocupa a posição de maior APR no Brasil e em toda a América Latina. O consultor de vendas é um especialista em produtos Apple; além de atuar como vendedor, possui o conhecimento necessário para orientar os clientes na escolha do melhor produto. As vendas são realizadas presencialmente nas lojas físicas e também de forma virtual através da plataforma de e-commerce da empresa.
+                  </p>
+                </div>
+                <button class="show-more" onclick="toggleDescription(this)">
+                  Ver mais
+                </button>
+
+                <div class="skills-container">
+                  <span class="tag">Trabalho em Equipe</span>
+                  <span class="tag">Comunicação</span>
+                  <span class="tag">Resolução de Problemas</span>
+                  <span class="tag">Atendimento ao Cliente</span>
+                  <span class="tag">Capacidade de Organização</span>
+                </div>
+              </div>
+            </article>
+            <hr>
+
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-apple-clinica.png" />
+              <div>
+                <h2>Atendente</h2>
+                <div class="company-info">
+                  <span class="info">Apple Clínica | Tempo integral</span>
+                  <br>
+                  <span class="caption">ago de 2018 - abril de 2019 (9 meses)</span>
+                </div>
+                <div class="description-container collapsed">
+                  <p class="description">
+                    Apple Clínica é um centro de serviços de reparo e loja de eletrônicos para dispositivos móveis.
+                  </p>
+                </div>
+
+                <div class="skills-container">
+                  <span class="tag">Trabalho em Wquipe</span>
+                  <span class="tag">Comunicação</span>
+                  <span class="tag">Atendimento ao Cliente</span>
+                  <span class="tag">Capacidade de Organização</span>
+                </div>
+              </div>
+            </article>
+            <hr>
+
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-prefeitura-caraguatatuba.jpeg" />
+              <div>
+                <h2>Monitora de Laboratório de Informática</h2>
+                <div class="company-info">
+                  <span class="info">Prefeitura Municial de Caraguatatuba | Estágio</span>
+                  <br>
+                  <span class="caption">jan de 2018 - jul de 2018 (7 meses)</span>
+                </div>
+                <div class="description-container collapsed">
+                  <p class="description">
+                    Organização e manutenção da sala de aula e dos equipamentos do laboratório.
+                    Suporte técnico básico para computadores e periféricos.<br>
+                    Auxílio aos alunos do ensino fundamental na utilização de softwares e navegação na internet.
+                    Elaboração de materiais de apresentação em slides para reuniões e projetos do corpo docente.
+                  </p>
+                </div>
+                <button class="show-more" onclick="toggleDescription(this)">
+                  Ver mais
+                </button>
+
+                <div class="skills-container">
+                  <span class="tag">Suporte Técnico</span>
+                  <span class="tag">Apoio ao Ensino</span>
+                  <span class="tag">Criação de Apresentações</span>
+                  <span class="tag">Resolução de Problemas</span>
+                  <span class="tag">Capacidade de Organização</span>
+                </div>
+              </div>
+            </article>
+
+          </section>
+        </article>
+      </section>
+
+      <!-- 🎓 FORMAÇÃO ACADÊMICA -->
+      <section class="background">
+        <article class="card-container">
+          <header class="card-header">
+            <h1 class="title">Formação Acadêmica</h1>
+          </header>
+
+          <section>
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-grupo-uninter.jpeg" />
+              <div>
+                <h2>Uninter - Centro Universitário Internacional</h2>
+                <div class="company-info">
+                  <span class="info">Tecnólogo em Análise e Desenvolvimento de Sistemas</span>
+                  <br>
+                  <span class="caption">fev de 2025 - dez 2026</span>
+                </div>
+
+                <div class="skills-container">
+                  <span class="tag">HTML5/CSS3</span>
+                  <span class="tag">JavaScript.js</span>
+                  <span class="tag">SQL</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+            </article>
+            <hr>
+
+            <article class="background-container">
+              <img class="background-logo logo" src="../assets/logo-ifsp.jpeg" />
+              <div>
+                <h2>Instituto Federal de Educação Ciência e Tecnologia de São Paulo - IFSP</h2>
+                <div class="company-info">
+                  <span class="info">Técnico em Informática para Internet</span>
+                  <br>
+                  <span class="caption">jan de 2017 - jun 2018</span>
+                </div>
+
+                <div class="skills-container">
+                  <span class="tag">HTML/CSS</span>
+                  <span class="tag">JavaScript.js</span>
+                  <span class="tag">Banco de Dados</span>
+                  <span class="tag">Trabalho em Equipe</span>
+                </div>
+              </div>
+            </article>
+
+          </section>
+        </article>
+      </section>
+
+      <!-- 🎓 FORMAÇÃO ACADÊMICA -->
+      <section id="education" class="background">
+        <article class="card-container">
+          <header class="card-header">
+            <h1 class="title">Licenças e Certificados</h1>
+          </header>
+
+          <section>
+            <article class="education-container">
+              <h2>Node.js Fundamentals</h2>
+
+              <div class="education-content">
+                <div>
+                  <div class="education-company-container">
+                    <img class="education-logo logo" src="../assets/logo-rocketseat.jpeg" />
+                    <div>
+                      <span class="info">Rocketseat</span>
+                      <br>
+                      <span class="caption">Emitido em maio de 2024</span>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="skills-container">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Streams</span>
+                    <span class="tag">Fundamentos HTTP</span>
+                  </div>
+                </div>
+
+                <a class="button" href="https://app.rocketseat.com.br/certificates/0791ac70-83eb-43ce-8458-02e30e884081" target="_blank">
+                  <span>
+                    Ver Certificado
+                  </span>
+                  <span class="end-icon icon">
+                    <ion-icon name="open-outline" style="vertical-align: middle;"></ion-icon>
+                  </span>
+                </a>
+              </div>
+            </article>
+
+            <article class="education-container">
+              <h2>Figma</h2>
+
+              <div class="education-content">
+                <div>
+                  <div class="education-company-container">
+                    <img class="education-logo logo" src="../assets/logo-rocketseat.jpeg" />
+                    <div>
+                      <span class="info">Rocketseat</span>
+                      <br>
+                      <span class="caption">Emitido em ago de 2023</span>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="skills-container">
+                    <span class="tag">Fundamentos do Figma</span>
+                    <span class="tag">Migração UI para HTML/CSS</span>
+                    <span class="tag">Design Tokens</span>
+                  </div>
+                </div>
+
+                <a class="button" href="https://app.rocketseat.com.br/certificates/b1e581bc-b6e0-414f-aac7-04ebc7d85886" target="_blank">
+                  <span>
+                    Ver Certificado
+                  </span>
+                  <span class="end-icon icon">
+                    <ion-icon name="open-outline" style="vertical-align: middle;"></ion-icon>
+                  </span>
+                </a>
+              </div>
+            </article>
+
+            <article class="education-container">
+              <h2>Node.js Specialization</h2>
+
+              <div class="education-content">
+                <div>
+                  <div class="education-company-container">
+                    <img class="education-logo logo" src="../assets/logo-rocketseat.jpeg" />
+                    <div >
+                      <span class="info">Rocketseat</span>
+                      <br>
+                      <span class="caption">Emitido em jan de 2023</span>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="skills-container">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Typescript</span>
+                    <span class="tag">Prisma ORM</span>
+                    <span class="tag">Jest</span>
+                  </div>
+                </div>
+
+                <a class="button" href="https://app.rocketseat.com.br/certificates/b376db92-b529-4f42-86c2-636cae8f5daf" target="_blank">
+                  <span>
+                    Ver Certificado
+                  </span>
+                  <span class="end-icon icon">
+                    <ion-icon name="open-outline" style="vertical-align: middle;"></ion-icon>
+                  </span>
+                </a>
+              </div>
+            </article>
+          </section>
+        </article>
       </section>
 
       <!-- Rodapé -->
